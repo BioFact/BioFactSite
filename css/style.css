@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Water+Brush&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=UnifrakturMaguntia&family=Water+Brush&display=swap');
@@ -8,7 +9,7 @@
 *
 * ======================================================= */
 body {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Radio Canada', sans-serif;
   font-size: 16px;
   line-height: 28px;
   font-weight: 300;
@@ -43,31 +44,31 @@ p, figure {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #484c50;
-  font-family: 'Nunito Sans', sans-serif;
+  color: #000000;
+  font-family: 'Radio Canada', sans-serif;
   font-weight: 400;
   margin: 0 0 30px 0;
 }
 
 ::-webkit-selection {
-  color: #818892;
+  color: #000000;
   background: #f9f6f0;
 }
 
 ::-moz-selection {
-  color: #818892;
+  color: #000000;
   background: #f9f6f0;
 }
 
 ::selection {
-  color: #818892;
+  color: #000000;
   background: #f9f6f0;
 }
 
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-family: "Roboto", Arial, sans-serif;
+  font-family: 'Radio Canada', sans-serif;
   font-size: 16px;
   font-weight: 400;
   -webkit-border-radius: 4px;
@@ -296,7 +297,7 @@ body {
 }
 #fh5co-header nav ul li a {
   font-size: 18px;
-  color: rgba(255, 255, 255, 0.5);
+  color: #000000;
   font-weight: 400;
 }
 #fh5co-header nav ul li a:hover {
@@ -326,7 +327,7 @@ body {
 }
 
 #fh5co-hero {
-  background-color: transparent;
+  /* background-color: transparent; */
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -487,7 +488,7 @@ body {
 .fh5co-lead {
   font-size: 50px;
   font-weight: 300;
-  color: #484c50;
+  color: #000000;
   margin-bottom: 10px;
 }
 @media screen and (max-width: 768px) {
@@ -538,9 +539,9 @@ body {
   background: #f9f9f9;
 }
 #fh5co-projects .fh5co-lead {
-  font-size: 50px;
+  font-size: 10px;
   font-weight: 300;
-  color: #484c50;
+  color: #000000;
   margin-bottom: 10px;
 }
 @media screen and (max-width: 768px) {
